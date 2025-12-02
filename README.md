@@ -28,6 +28,7 @@ Memory: It maintains a short-term memory of its actions to avoid repeating mista
 
 ⚡ Optimized for Free Tier: Runs entirely on the free tier of Google Gemini (Auto-detects Flash/Pro models).
 
+
 🛠️ Tech Stack
 
 Brain: Google Gemini 2.5 Flash / 1.5 Pro (via google-generativeai)
@@ -40,6 +41,7 @@ Backend: Python 3.12+
 
 Data Persistence: JSON-based local database
 
+
 🚀 Quick Start (Run Locally)
 
 Clone the Repository
@@ -48,9 +50,11 @@ git clone [https://github.com/your-username/venture-vision.git](https://github.c
 cd venture-vision
 
 
+
 Install Dependencies
 
 pip install -r requirements.txt
+
 
 
 Configure API Key
@@ -68,6 +72,7 @@ Run the App
 python -m streamlit run app.py
 
 
+
 ☁️ Deployment (Streamlit Cloud)
 
 To deploy this app commercially:
@@ -83,6 +88,7 @@ Crucial: Add your API Key in the "Secrets" settings of your app:
 GEMINI_KEY = "AIzaSyD..."
 
 
+
 Update app.py to use st.secrets["GEMINI_KEY"].
 
 🔮 Future Roadmap
@@ -92,5 +98,3 @@ Update app.py to use st.secrets["GEMINI_KEY"].
 [ ] PDF Analysis: Drag-and-drop Pitch Decks for instant critique.
 
 [ ] Visualizations: Auto-generate stock price charts and growth graphs.
-
-Built with ❤️ for Hack Imagine 2025 at Huddle Global.
