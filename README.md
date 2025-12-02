@@ -1,4 +1,4 @@
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]([https://venturevision-pro.streamlit.app/])
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://venturevision-pro.streamlit.app/)
 🚀 VentureVision Pro: Autonomous Investment Agent
 
 VentureVision Pro is an agentic AI application designed to automate venture capital due diligence. Built for the Hack Imagine 2025 hackathon, it replaces hours of manual research with an autonomous loop that thinks, searches, and generates professional investment memos in seconds.
